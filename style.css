@@ -113,3 +113,62 @@
     background-color: rgb(255, 255, 255);
     color: black;
 }
+
+/* Responsiveness */
+
+@media screen and (max-width: 1000px) {
+
+    .main{
+        width: 100%;
+        height: 100%;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .card1,.card2,.card3{
+        margin:15%;
+        width:60%;
+        height:40em;
+    }
+    .para{
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1402px) {
+    .para{
+        margin-top:60%;
+    }
+}
+@media screen and (max-width: 1214px) {
+    .para{
+        margin-top:80%;
+    }
+}
+@media screen and (max-width: 1000px) {
+
+    .main{
+        width: 100%;
+        height: 100%;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
